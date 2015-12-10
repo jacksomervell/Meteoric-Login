@@ -1,0 +1,120 @@
+body {
+  background-image: url("http://7-themes.com/data_images/out/1/6770978-apple-earth-wallpaper.jpg");
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+img {
+  width: 60px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.menu {
+    list-style-type:none;  
+    margin:0;  
+    padding:0
+}
+
+.menu li {
+  display: inline;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.menu li a:hover {
+  color: red;
+}
+
+p a{
+  text-decoration: none;
+  color: lightblue;
+}
+
+p a:hover {
+  color: red;
+}
+
+button a, .submit a {
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+
+button, .submit {
+  display: block;
+  margin: 0 auto;
+  background: red;
+  background-image: -webkit-linear-gradient(top, red, red);
+  background-image: -moz-linear-gradient(top, red, red);
+  background-image: -ms-linear-gradient(top, red, red);
+  background-image: -o-linear-gradient(top, red, red);
+  background-image: linear-gradient(to bottom, red, red);
+  border-radius: 5px;
+  text-shadow: 0px 0px 3px black;
+  font-family: Arial;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover, .submit:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  cursor: select;
+}
+
+.editing-options, .login, .register{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+.editing-options li {
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  float: right;
+  width: 125px;
+  margin-right: 35px;
+  border: none;
+  height: 18px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.submit{
+  width: 100px;
+  margin-right: 75px;
+  height: 40px;
+}
+
+hr {
+  width: 350px;
+  border-color: 2px solid white;
+}
+
+
